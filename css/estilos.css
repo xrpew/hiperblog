@@ -1,7 +1,7 @@
 body{
     color: green;
     text-align: center;
-    font-family: Arial;
+    font-family: 'Courier New', Courier, monospace;
 }
 #container {
     width: 70%;
