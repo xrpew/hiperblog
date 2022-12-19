@@ -3,7 +3,13 @@ body{
     text-align: center;
     font-family: Arial;
 }
-h1{
+#container {
+    width: 70%;
+    padding: 1em;
+    text-align: left;
     border: 1px solid red;
-    
+    margin: 0 auto;
+}
+#container h1{
+    font-size: 20px;
 }
