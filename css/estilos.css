@@ -1,5 +1,5 @@
 body{
-    color: green;
+    color: black;
     text-align: center;
     font-family: Arial;
 }
@@ -7,9 +7,20 @@ body{
     width: 70%;
     padding: 1em;
     text-align: left;
-    border: 1px solid red;
+    border: 1px solid grey;
     margin: 0 auto;
 }
 #container h1{
     font-size: 20px;
+}
+#cabecera{
+    background-color: blue;
+    color: white;
+    padding:1em;
+    margin: -1em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0px 2px 10px 0px black;
 }
