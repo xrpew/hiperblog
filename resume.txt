@@ -1,0 +1,29 @@
+git shortlog -sn = muestra cuantos commit han hecho cada miembros del equipo.
+
+git shortlog -sn --all = muestra cuantos commit han hecho cada miembros del equipo hasta los que han sido eliminado
+
+git shortlog -sn --all --no-merge = muestra cuantos commit han hecho cada miembros quitando los eliminados sin los merges
+
+git blame ARCHIVO = muestra quien hizo cada cosa linea por linea
+
+git COMANDO --help = muestra como funciona el comando.
+
+git blame ARCHIVO -Llinea_inicial,linea_final= muestra quien hizo cada cosa linea por linea indicándole desde que linea ver ejemplo -L35,50
+
+git branch -r = se muestran todas las ramas remotas
+
+git branch -a = se muestran todas las ramas tanto locales como remotas
+
+git shortlog: Ver cuantos commits a hecho los miembros del equipo
+
+git config --global alias.stats “shortlog -sn --all --no-merges”: configura el comando “shortlog -sn --all --no-merges” en un Alias en las configuraciones globales de git del pc
+git blame -c blogpost.html: Muestra quien ha hecho cambios en dicho archivo identado
+git blame --help: Muestra en el navegador el uso del comando
+git blame archivo -L 35, 60 -c: Muestra quien escribio el codigo con informacion de la linea 35 a la 60, EJ: git blame css/estilos.css -L 35, 60 -c
+git branch -r: Muestra las Ramas remotas de GitHub
+git branch -a: Muestra todas las Ramas del repo y remotas de GitHub
+
+
+para volver en el tiempo usamos 
+git reflog -> para ver a que punto queremos retornar
+git reset --HARD {hash al que queremos volver}
