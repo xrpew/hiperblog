@@ -22,3 +22,8 @@ git blame --help: Muestra en el navegador el uso del comando
 git blame archivo -L 35, 60 -c: Muestra quien escribio el codigo con informacion de la linea 35 a la 60, EJ: git blame css/estilos.css -L 35, 60 -c
 git branch -r: Muestra las Ramas remotas de GitHub
 git branch -a: Muestra todas las Ramas del repo y remotas de GitHub
+
+
+para volver en el tiempo usamos 
+git reflog -> para ver a que punto queremos retornar
+git reset --HARD {hash al que queremos volver}
